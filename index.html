@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./Docs/Css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
+    <link rel="shortcut icon" href="./Docs/Assets/logo.png" type="image/x-icon">
     <title>Document</title>
 </head>
 
@@ -18,10 +20,10 @@
             <div class="mx-auto max-w-screen-xl px-6 lg:px-8 relative">
                 <div class="relative flex h-20 space-x-10 w-full">
                     <div class="flex justify-start"><a class="flex flex-shrink-0 items-center" href="./index.html">
-                            <img class="block h-28 w-auto" src="./Docs/Assets/logo.png">
+                            <img class="block h-[4.5rem] w-auto" src="./Docs/Assets/logo.png">
                         </a>
                     </div>
-                    <ul class="flex justify-center items-center gap-8 font-medium">
+                    <ul class="hidden md:flex justify-center items-center gap-8 font-medium">
                         <li><a class="hover:text-[#dd572d] transition-all navUnderLine" href="#">Pro Banks</a></li>
                         <li><a class="hover:text-[#dd572d] transition-all navUnderLine" href="#">Assurance</a></li>
                         <li><a class="hover:text-[#dd572d] transition-all navUnderLine" href="#">Story</a></li>
@@ -30,7 +32,7 @@
                     <div
                         class="flex-shrink-0 flex px-2 py-3 items-center space-x-8 flex-1 justify-end justify-self-end ">
                         <a class="text-white bg-[#dd572d] inline-flex items-center justify-center px-5 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm "
-                            href="/signup">Sign up</a>
+                            href="/signup">Discover</a>
                     </div>
                 </div>
             </div>
@@ -42,19 +44,21 @@
                                 class="inline-flex items-center  rounded-2xl bg-[#dd572d] px-4 py-1.5 text-xs sm:text-sm font-serif font-medium text-[#fff]">Unlock
                                 the potential of AI bank education.</span>
                         </div>
-                        <h1
-                            class="text-4xl max-w-3xl mx-auto  sm:text-5xl font-semibold text-gray-900 xl:text-6xl font-serif !leading-tight">
-                            Bienvenue sur
-                            FinanSelect
+                        <h1 class="text-4xl max-w-3xl mx-auto  sm:text-5xl text-gray-900 xl:text-6xl font-bold py-3">
+                            Bienvenue sur JE
+                            <span class="text-[#dd572d]">
+                                Compare tout
+                            </span>
                         </h1>
                         <p class="mt-4 text-lg sm:text-xl max-w-4xl leading-8 text-gray-600 sm:px-16"
-                            style="white-space: pre-line;">Notre plateforme vous aide à comparer facilement les produits financiers comme les prêts, les assurances et les crédits Trouvez rapidement les meilleures offres adaptées à vos besoins et prenez des décisions éclairées avec FinanSelect</p>
+                            style="white-space: pre-line;">Notre plateforme vous aide à comparer facilement les produits
+                            financiers comme les prêts, les assurances et les crédits Trouvez rapidement les meilleures
+                            offres adaptées à vos besoins et prenez des décisions éclairées avec FinanSelect</p>
                         <div class="mt-8 flex w-full space-x-8 justify-center"><a href="#">
-                            <button
-                              class="ring-offset-background  focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary hover:bg-primary/90 h-10 inline-flex items-center justify-center px-10 py-6 transition-all  border-0 rounded-full font-medium text-white bg-gradient-to-l from-[#ecbd15] to-[#dd572d] shadow-lg hover:shadow-xl focus:outline-none"
-                            >
-                            Nos comparaisons
-                            </button>
+                                <button
+                                    class="ring-offset-background  focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary hover:bg-primary/90 h-10 inline-flex items-center justify-center px-10 py-6 transition-all  border-0 rounded-full font-medium text-white bg-gradient-to-l from-[#fe8a39] to-[#fd3838] shadow-lg hover:shadow-xl focus:outline-none">
+                                    Nos comparaisons
+                                </button>
                             </a>
                         </div>
                     </div>
@@ -64,6 +68,142 @@
 
     </div>
 
+
+    <div class="flex mt-20">
+        <div class="blog-slider">
+            <div class="blog-slider__wrp swiper-wrapper">
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img p-5">
+
+                        <img src="./Docs/Assets/Home/Banks/fortuneo.png" alt="">
+                    </div>
+                    <div class="blog-slider__content">
+                        <span class="blog-slider__code">Fortuneo banque</span>
+                        <div class="blog-slider__title">LA BANQUE EN LIGNE POUR TOUS</div>
+                        <div class="blog-slider__text">Une banque en ligne pensée pour les jeunes aventuriers, offrant
+                            une flexibilité complète et des services sur mesure, où que vous soyez dans le monde.</div>
+                        <a href="#" class="blog-slider__button">Découvrir</a>
+                    </div>
+                </div>
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img p-5">
+                        <img src="./Docs/Assets/Home/Banks/bourso.png" alt="">
+                    </div>
+                    <div class="blog-slider__content">
+                        <span class="blog-slider__code">Boursobank</span>
+                        <div class="blog-slider__title">LA BANQUE LA PLUS ECONOMIQUE</div>
+                        <div class="blog-slider__text">Bénéficiez de tarifs ultra-compétitifs et d'une transparence
+                            absolue avec notre banque en ligne, la solution la moins chère du marché.</div>
+                        <a href="#" class="blog-slider__button">Découvrir</a>
+                    </div>
+                </div>
+
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img p-5">
+                        <img src="./Docs/Assets/Home/Banks/hello.jpeg" alt="">
+                    </div>
+                    <div class="blog-slider__content">
+                        <span class="blog-slider__code">Hello Bank!</span>
+                        <div class="blog-slider__title">LA BANQUE EN LIGNE NOUVELLE GÉNÉRATION</div>
+                        <div class="blog-slider__text">Explorez une expérience bancaire réinventée, où technologie et
+                            simplicité s'allient pour vous proposer un service sur mesure, disponible à tout instant,
+                            partout dans le monde.</div>
+                        <a href="#" class="blog-slider__button">Découvrir</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="blog-slider__pagination"></div>
+        </div>
+    </div>
+
+    <div class="mt-20">
+
+        <div class="flex pt-12 px-6 md:px-20  items-center justify-center bg-hero md:h-screen overflow-hidden">
+            <div class="flex flex-col  gap-6 md:flex-row items-center max-w-8xl">
+                <div class="w-full md:w-[60%] lg:pr-32">
+                    <h2 class="text-4xl lg:text-5xl text-center md:text-left text-[#dd572d] leading-tight font-bold">
+                        Qui est JE Compare tout?
+                    </h2>
+                    <h3
+                        class="mt-6 text-md text-center md:text-left text-gray-700  ">
+                        FinanSelect, votre spécialiste des comparatifs en ligne, vous propose des sélections exclusives pour simplifier vos choix et faciliter vos comparaisons d'achats en ligne. Plébiscité par des millions d'utilisateurs, nos sélections sont enrichies d'avis éditoriaux et d'analyses détaillées, vous permettant de prendre des décisions d'achat en ligne en toute connaissance de cause. Depuis 2019, FinanSelect a renforcé son expertise et étendu ses compétences
+                    </h3>
+                    <div class="mt-10 flex flex-col sm:flex-row justify-center md:justify-start">
+                        <a href="#">
+                            <button
+                                    class="ring-offset-background  focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary hover:bg-primary/90 h-10 inline-flex items-center justify-center px-10 py-6 transition-all  border-0 rounded-full font-medium text-white bg-gradient-to-l from-[#fe8a39] to-[#fd3838] shadow-lg hover:shadow-xl focus:outline-none">
+                                    Nos comparaisons
+                                </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="w-full md:w-[40%] flex justify-center md:justify-end">
+                    <section class="cardFlip3D">
+                        <div class="container">
+                            <div class="card front-face">
+                                <header>
+                                    <span class="logo">
+                                        <!--<img src="images/logo.png" alt="" />-->
+                                        <h5>Master Card</h5>
+                                    </span>
+                                    <!--<img src="images/chip.png" alt="" class="chip" />-->
+                                </header>
+
+                                <div class="card-details">
+                                    <div class="name-number">
+                                        <h6>Card Number</h6>
+                                        <h5 class="number">8050 2030 3020 5040</h5>
+                                        <h5 class="name">Prem Kumar Shahi</h5>
+                                    </div>
+
+                                    <div class="valid-date">
+                                        <h6>Valid Thru</h6>
+                                        <h5>05/28</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card back-face">
+                                <h6>
+                                    For customer service call +977 4343 3433 or email at
+                                    mastercard@gmail.com
+                                </h6>
+                                <span class="magnetic-strip"></span>
+                                <div class="signature"><i>005</i></div>
+                                <h5>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
+                                    maiores sed doloremque nesciunt neque beatae voluptatibus doloribus.
+                                    Libero et quis magni magnam nihil temporibus? Facere consectetur
+                                    dolore reiciendis et veniam.
+                                </h5>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    var swiper = new Swiper('.blog-slider', {
+        spaceBetween: 30,
+        effect: 'fade',
+        loop: true,
+        mousewheel: {
+            invert: false,
+        },
+        // autoHeight: true,
+        pagination: {
+            el: '.blog-slider__pagination',
+            clickable: true,
+        }
+    });
+</script>
 
 </html>
