@@ -15,28 +15,31 @@
 }
 
 .slidein {
-  animation: slideAnimation 1s ease var(--slidein-delay, 0) forwards ;
+  animation: slideAnimation 1s ease var(--slidein-delay, 0) forwards;
 }
+
 .slidein500 {
-  animation: slideAnimation 1s ease 500ms forwards ;
+  animation: slideAnimation 1s ease 500ms forwards;
 }
+
 .slidein700 {
-  animation: slideAnimation 1s ease 700ms forwards ;
+  animation: slideAnimation 1s ease 700ms forwards;
 }
+
 .slidein900 {
-  animation: slideAnimation 1s ease 900ms forwards ;
+  animation: slideAnimation 1s ease 900ms forwards;
 }
 
 
 @keyframes slideAnimation {
   from {
-      opacity: 0;
-      transform: translateY(-10px)
+    opacity: 0;
+    transform: translateY(-10px)
   }
 
   to {
-      opacity: 1;
-      transform: translateY(0)
+    opacity: 1;
+    transform: translateY(0)
   }
 }
 
@@ -396,7 +399,7 @@
   background: linear-gradient(90deg, #fd4f38, #f3f5f5);
 }
 
-.container {
+.containerCard {
   position: relative;
   height: 225px;
   width: 375px;
@@ -405,11 +408,11 @@
   transform-style: preserve-3d;
 }
 
-.container:hover {
+.containerCard:hover {
   transform: rotateY(180deg);
 }
 
-.container .card {
+.containerCard .card {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -513,4 +516,10 @@ h5.name {
 .card.back-face h5 {
   font-size: 8px;
   margin-top: 15px;
+}
+
+/* counter============= */
+
+.convertingColorsLinearGradient {
+  background: #fed1cb;
 }
