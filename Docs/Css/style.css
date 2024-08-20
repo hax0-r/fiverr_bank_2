@@ -89,6 +89,7 @@
     min-height: 500px;
     height: auto;
     margin: 180px auto;
+    margin-bottom: 0;
   }
 }
 
@@ -379,25 +380,27 @@
   width: 100%;
 }
 
-.cardFlip3D::before {
-  content: "";
-  position: absolute;
-  height: 240px;
-  width: 240px;
-  border-radius: 50%;
-  transform: translate(-150px, -100px);
-  background: linear-gradient(90deg, #fd4f38, #f3f5f5);
+@media screen and (min-width:769px) {
+  .cardFlip3D::before {
+    content: "";
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    transform: translate(-150px, -100px);
+    background: linear-gradient(90deg, #fd4f38, #f3f5f5);
+  }
+  .cardFlip3D::after {
+    content: "";
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    transform: translate(150px, 100px);
+    background: linear-gradient(90deg, #fd4f38, #f3f5f5);
+  }
 }
 
-.cardFlip3D::after {
-  content: "";
-  position: absolute;
-  height: 240px;
-  width: 240px;
-  border-radius: 50%;
-  transform: translate(150px, 100px);
-  background: linear-gradient(90deg, #fd4f38, #f3f5f5);
-}
 
 .containerCard {
   position: relative;
