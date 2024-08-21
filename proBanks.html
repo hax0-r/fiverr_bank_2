@@ -65,47 +65,50 @@
             imageSrc: './Docs/Assets/Home/ProBanks/blank.webp',
             altText: 'Blank',
             title: 'Blank',
-            height: "h-[15rem]", navigate: "#"
+            height: "h-[15rem]",
+            navigate: "blank"
         },
         {
             imageSrc: './Docs/Assets/Home/ProBanks/fiducial.webp',
             altText: 'fiducial Bank',
             title: 'fiducial Bank',
-            height: "h-[15rem]", navigate: "#"
+            height: "h-[15rem]",
+            navigate: "fiducial"
         },
         {
             imageSrc: './Docs/Assets/Home/ProBanks/finom.webp',
             altText: 'finombank',
             title: 'Finombank',
-            height: "h-[15rem]", navigate: "#"
+            height: "h-[15rem]",
+            navigate: "finom"
         },
         {
             imageSrc: './Docs/Assets/Home/ProBanks/hello.webp',
             altText: 'hello Paribas',
             title: 'Hello Paribas',
             height: "h-[15rem]",
-            navigate: "#"
+            navigate: "hello"
         },
         {
             imageSrc: './Docs/Assets/Home/ProBanks/memo.webp',
             altText: 'Memo',
             title: 'Memo',
             height: "h-[15rem]",
-            navigate: "#"
+            navigate: "memo"
         },
         {
             imageSrc: './Docs/Assets/Home/ProBanks/mona.webp',
             altText: 'Mona',
             title: 'Mona',
             height: "h-[15rem]",
-            navigate: "#"
+            navigate: "monabanq"
         },
         {
             imageSrc: './Docs/Assets/Home/ProBanks/qonto.webp',
             altText: 'Qonto Bank',
             title: 'Qonto Bank',
             height: "h-[15rem]",
-            navigate: "#"
+            navigate: "qonto"
         },
     ];
 
@@ -124,7 +127,7 @@
                     <a href="#">
                         <h5 class="text-xl pb-3 tracking-tight text-slate-900">${card.title}</h5>
                     </a>
-                    <a href="${card.navigate}" class="w-full">
+                    <a href="./bank-${card.navigate}.html" class="w-full">
                         <button class="ring-offset-background w-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary hover:bg-primary/90 h-10 inline-flex items-center justify-center px-10 py-6 transition-all  border-0 rounded-lg font-medium text-white bg-gradient-to-l from-[#fe8a39] to-[#fd3838] shadow-lg hover:shadow-xl focus:outline-none">
                             Visiter le site
                         </button>

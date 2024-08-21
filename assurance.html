@@ -65,7 +65,7 @@
             altText: 'Easybourse',
             title: 'Easybourse',
             height: "h-[7rem]",
-            navigate: "#",
+            navigate: "easybourse",
             btn: "Découvrir ici"
         },
         {
@@ -73,7 +73,7 @@
             altText: 'Euro Assurance',
             title: 'Euro Assurance',
             height: "h-[7.5rem]",
-            navigate: "#",
+            navigate: "euro-accurance",
             btn: "Découvrir ici"
         },
         {
@@ -81,14 +81,17 @@
             altText: 'Fortuneo',
             title: 'Fortuneo',
             height: "h-[5.5rem]",
-            navigate: "#",
+            navigate: "fortuneo-assurance",
             btn: "Découvrir ici"
         },
         {
             imageSrc: './Docs/Assets/Home/assurance/allianz.webp',
             altText: 'Allianz',
             title: 'Allianz',
-            height: "h-[4.5rem]", navigate: "#",
+            height: "h-[4.5rem]", 
+            navigate: "allianz-sante",
+            navigate2: "allianz-auto",
+            navigate3: "allianz-habitation",
             btn1: "Allianz Santé",
             btn2: "Allianz Auto",
             btn3: "Allianz Habitation"
@@ -98,11 +101,12 @@
             altText: 'Direct Assurance',
             title: 'Direct Assurance',
             height: "h-[12rem]",
-            navigate: "#",
-            btn1: "Allianz Santé",
-            btn2: "Allianz Auto",
-            btn3: "Allianz Habitation"
-
+            navigate: "direct-assurance-sante",
+            navigate2: "direct-assurance-auto",
+            navigate3: "direct-assurance-habitation",
+            btn1: "Direct Assurance Santé",
+            btn2: "Direct Assurance Auto",
+            btn3: "Direct Assurance Habitation"
         },
     ];
 
@@ -117,7 +121,7 @@
 
             if (card.btn1) {
                 buttonsHTML += `
-                <a href="${card.navigate}" class="w-full">
+                <a href="./bank-${card.navigate}.html" class="w-full">
                     <button class="ring-offset-background w-full mb-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary hover:bg-primary/90 h-10 inline-flex items-center justify-center px-10 py-6 transition-all border-0 rounded-lg font-medium text-white bg-gradient-to-l from-[#fe8a39] to-[#fd3838] shadow-lg hover:shadow-xl focus:outline-none">
                         ${card.btn1}
                     </button>
@@ -127,7 +131,7 @@
 
             if (card.btn2) {
                 buttonsHTML += `
-                <a href="${card.navigate}" class="w-full">
+                <a href="./bank-${card.navigate2}.html" class="w-full">
                     <button class="ring-offset-background w-full mb-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary hover:bg-primary/90 h-10 inline-flex items-center justify-center px-10 py-6 transition-all border-0 rounded-lg font-medium text-white bg-gradient-to-l from-[#fe8a39] to-[#fd3838] shadow-lg hover:shadow-xl focus:outline-none">
                         ${card.btn2}
                     </button>
@@ -137,8 +141,8 @@
 
             if (card.btn3) {
                 buttonsHTML += `
-                <a href="${card.navigate}" class="w-full">
-                    <button class="ring-offset-background w-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary hover:bg-primary/90 h-10 inline-flex items-center justify-center px-10 py-6 transition-all border-0 rounded-lg font-medium text-white bg-gradient-to-l from-[#fe8a39] to-[#fd3838] shadow-lg hover:shadow-xl focus:outline-none">
+                <a href="./bank-${card.navigate3}.html" class="w-full">
+                    <button class="ring-offset-background text-nowrap w-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary hover:bg-primary/90 h-10 inline-flex items-center justify-center px-10 py-6 transition-all border-0 rounded-lg font-medium text-white bg-gradient-to-l from-[#fe8a39] to-[#fd3838] shadow-lg hover:shadow-xl focus:outline-none">
                         ${card.btn3}
                     </button>
                 </a>
@@ -147,9 +151,9 @@
 
             if (!buttonsHTML) {
                 buttonsHTML = `
-                <a href="${card.navigate}" class="w-full">
+                <a href="./bank-${card.navigate}.html" class="w-full">
                     <button class="ring-offset-background w-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary hover:bg-primary/90 h-10 inline-flex items-center justify-center px-10 py-6 transition-all border-0 rounded-lg font-medium text-white bg-gradient-to-l from-[#fe8a39] to-[#fd3838] shadow-lg hover:shadow-xl focus:outline-none">
-                        Découvrir ici
+                        ${card.btn}
                     </button>
                 </a>
             `;
@@ -173,9 +177,10 @@
 
     generateCards(cardData);
 
-
-
 </script>
+
+
+
 
 
 </html>

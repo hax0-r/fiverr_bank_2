@@ -141,8 +141,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         </div>
                         <button type="button" id="default-search"
-                            class="block w-full lg:min-w-[448px] pr-12 pl-6 py-3 text-base font-normal shadow-xs text-black bg-transparent border border-gray-700 rounded-full placeholder-black focus:outline-none leading-relaxed transition-all duration-500 ">Have
-                            a question? talk to us</button>
+                            class="block w-full lg:min-w-[448px] pr-12 pl-6 py-3 text-base font-normal shadow-xs text-black bg-transparent border border-gray-700 rounded-full placeholder-black focus:outline-none leading-relaxed transition-all duration-500 ">Une question ? Contactez-nous.</button>
                     </div>
                 </div>
             </div>
