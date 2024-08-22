@@ -9,13 +9,13 @@ document.addEventListener("DOMContentLoaded", function () {
                     </a>
                 </div>
                 <ul class="hidden md:flex justify-center items-center gap-8 font-medium">
-                    <li><a class="hover:text-[#dd572d] transition-all navUnderLine" href="./proBanks.html">Pro Banks</a></li>
-                    <li><a class="hover:text-[#dd572d] transition-all navUnderLine" href="./assurance.html">Assurance</a></li>
-                    <li><a class="hover:text-[#dd572d] transition-all navUnderLine" href="./story.html">Story</a></li>
+                    <li><a class="hover:text-[#dd572d] transition-all navUnderLine" href="./proBanks.html">Banques Pro</a></li>
+                    <li><a class="hover:text-[#dd572d] transition-all navUnderLine" href="./assurance.html">Assurances</a></li>
+                    <li><a class="hover:text-[#dd572d] transition-all navUnderLine" href="./story.html">Notre histoire</a></li>
                     <li><a class="hover:text-[#dd572d] transition-all navUnderLine" href="./blog.html">Blog</a></li>
                 </ul>
                 <div class="flex-shrink-0 hidden md:flex px-2 py-3 items-center space-x-8 flex-1 justify-end justify-self-end">
-                    <a href="#">
+                    <a href="#NosComparaisons">
                         <button class="ring-offset-background hover:opacity-80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary hover:bg-primary/90 h-10 inline-flex items-center justify-center px-5 py-6 transition-all border-0 rounded-lg font-medium text-white bg-gradient-to-l from-[#fe8a39] to-[#fd3838] shadow-lg hover:shadow-xl focus:outline-none">
                             Nos comparaisons
                         </button>
@@ -32,9 +32,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="p-5 ">
                     <img src="./Docs/Assets/logo.png" class="h-16" alt="">
                     <ul class="flex flex-col gap-2 mt-10">
-                        <li class="text-white text-xl hover:bg-[#fe5239] transition-all rounded-lg hover:shadow-md p-3"><a href="./proBanks.html">Pro Banks</a></li>
-                        <li class="text-white text-xl hover:bg-[#fe5239] transition-all rounded-lg hover:shadow-md p-3"><a href="./assurance.html">Assurance</a></li>
-                        <li class="text-white text-xl hover:bg-[#fe5239] transition-all rounded-lg hover:shadow-md p-3"><a href="./story.html">Story</a></li>
+                        <li class="text-white text-xl hover:bg-[#fe5239] transition-all rounded-lg hover:shadow-md p-3"><a href="./proBanks.html">Banques Pro</a></li>
+                        <li class="text-white text-xl hover:bg-[#fe5239] transition-all rounded-lg hover:shadow-md p-3"><a href="./assurance.html">Assurances</a></li>
+                        <li class="text-white text-xl hover:bg-[#fe5239] transition-all rounded-lg hover:shadow-md p-3"><a href="./story.html">Notre histoire</a></li>
                         <li class="text-white text-xl hover:bg-[#fe5239] transition-all rounded-lg hover:shadow-md p-3"><a href="./blog.html">Blog</a></li>
                     </ul>
                 </div>

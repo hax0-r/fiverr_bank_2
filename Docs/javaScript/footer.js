@@ -140,8 +140,10 @@ document.addEventListener("DOMContentLoaded", function () {
                             </svg>
 
                         </div>
-                        <button type="button" id="default-search"
+                            <a href="./contactUs.html">
+                            <button type="button" id="default-search"
                             class="block w-full lg:min-w-[448px] pr-12 pl-6 py-3 text-base font-normal shadow-xs text-black bg-transparent border border-gray-700 rounded-full placeholder-black focus:outline-none leading-relaxed transition-all duration-500 ">Une question ? Contactez-nous.</button>
+                            </a>
                     </div>
                 </div>
             </div>

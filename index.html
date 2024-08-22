@@ -44,7 +44,7 @@
                         </p>
                         <div
                             class=" mt-8 flex w-full space-x-8 justify-center slidein [--slidein-delay:900ms] opacity-0">
-                            <a href="#">
+                            <a href="#NosComparaisons">
                                 <button
                                     class="ring-offset-background hover:opacity-80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary hover:bg-primary/90 h-10 inline-flex items-center justify-center px-10 py-6 transition-all  border-0 rounded-full font-medium text-white bg-gradient-to-l from-[#fe8a39] to-[#fd3838] shadow-lg hover:shadow-xl focus:outline-none">
                                     Nos comparaisons
@@ -206,7 +206,7 @@
                                         class="flex flex-col p-6 text-center border-t border-b border-gray-100 del123:border-gray-700 sm:border-0 sm:border-l sm:border-r">
                                         <dt
                                             class="order-2 mt-2 text-lg font-medium leading-6 text-zinc-400 del123:text-gray-400">
-                                            happy clients
+                                            Clients heureux
                                         </dt>
                                         <dd class="order-1 text-5xl font-extrabold leading-none text-[#dd572d] del123:text-indigo-100"
                                             id="downloadsCount">
@@ -234,8 +234,8 @@
     </div>
 
 
-    <div class="mt-20">
-        <h1 class="text-center font-extrabold sm:text-5xl text-3xl text-[#dd572d] pb-12 ">Our Comparisons</h1>
+    <div class="mt-20" id="NosComparaisons">
+        <h1 class="text-center font-extrabold sm:text-5xl text-3xl text-[#dd572d] pb-12 ">Nos comparaisons</h1>
         <div id="dynamicCards" class="max-w-[70rem] mx-auto px-5 flex flex-wrap justify-center items-center gap-7">
             <!-- dynamic Cards  -->
         </div>
@@ -310,7 +310,7 @@
             discount: '30% OFF',
             title: 'Hello Bank',
             price: '80€',
-            offer: 'offered',
+            offer: 'offert',
             rating: 4.5,
             height: "h-[20rem]",
             navigate: "hello"
@@ -321,7 +321,7 @@
             discount: '40% OFF',
             title: 'Fortuneo Bank',
             price: '80€',
-            offer: 'offered',
+            offer: 'offert',
             rating: 5.0,
             height: "h-[18.5rem]",
             navigate: "fortuneo"
@@ -332,7 +332,7 @@
             discount: '25% OFF',
             title: 'Boursobank',
             price: '150€',
-            offer: 'offered',
+            offer: 'offert',
             rating: 4.0,
             height: "h-[13rem]",
             navigate: "bourso"
@@ -343,7 +343,7 @@
             discount: '20% OFF',
             title: 'BNP Paribas',
             price: '80€',
-            offer: 'offered',
+            offer: 'offert',
             rating: 3.0,
             height: "h-[5rem]",
             navigate: "bnp-paribas"
@@ -354,7 +354,7 @@
             discount: '35% OFF',
             title: 'Revolut',
             price: '60€',
-            offer: 'offered',
+            offer: 'offert',
             rating: 4.0,
             height: "h-[8rem]",
             navigate: "revolut"
@@ -365,7 +365,7 @@
             discount: '15% OFF',
             title: 'N26',
             price: '30€',
-            offer: 'offered',
+            offer: 'offert',
             rating: 3.0,
             height: "h-[11rem]",
             navigate: "n26"
@@ -376,7 +376,7 @@
             discount: '30% OFF',
             title: 'Shine Bank',
             price: '80€',
-            offer: 'offered',
+            offer: 'offert',
             rating: 3.0,
             height: "h-[4rem]",
             navigate: "shine"
@@ -387,7 +387,7 @@
             discount: '50% OFF',
             title: 'Societe Generale',
             price: '160€',
-            offer: 'offered',
+            offer: 'offert',
             rating: 3.0,
             height: "h-[8rem]",
             navigate: "societe-genereal"
@@ -398,7 +398,7 @@
             discount: '45% OFF',
             title: 'Monabanq',
             price: '160€',
-            offer: 'offered',
+            offer: 'offert',
             rating: 4.0,
             height: "h-[5rem]",
             navigate: "monabanq"
@@ -415,7 +415,6 @@
             cardElement.innerHTML = `
             <a class="relative mx-3 mt-3 flex h-60 overflow-hidden justify-center items-center rounded-xl" href="#">
                 <img class="object-cover mx-auto ${card.height}" src="${card.imageSrc}" alt="${card.altText}" />
-                <span class="absolute top-0 left-0 m-2 rounded-full bg-gradient-to-l from-[#fe8a39] to-[#fd3838] px-2 text-center text-sm font-medium text-white">${card.discount}</span>
             </a>
             <div class="mt-4 px-5 pb-5">
                 <a href="#">
