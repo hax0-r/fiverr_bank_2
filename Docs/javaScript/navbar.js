@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <li><a class="hover:text-[#dd572d] transition-all navUnderLine" href="./blog.html">Blog</a></li>
                 </ul>
                 <div class="flex-shrink-0 hidden md:flex px-2 py-3 items-center space-x-8 flex-1 justify-end justify-self-end">
-                    <a href="#NosComparaisons">
+                    <a href="./index.html#NosComparaisons">
                         <button class="ring-offset-background hover:opacity-80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary hover:bg-primary/90 h-10 inline-flex items-center justify-center px-5 py-6 transition-all border-0 rounded-lg font-medium text-white bg-gradient-to-l from-[#fe8a39] to-[#fd3838] shadow-lg hover:shadow-xl focus:outline-none">
                             Nos comparaisons
                         </button>
