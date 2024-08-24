@@ -51,8 +51,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                 </div>
                                 <div class="ml-[18px]">
                                     <a href="mailto:help@lorem.com"
-                                        class="font-Inter text-[14px] font-medium text-[#000]">46
-                                        Avenue Raymond Poincaré, <br> 75016, Paris</a>
+                                        class="font-Inter text-[14px] font-medium text-[#000]">7 Avenue Duquesne,75007 
+ <br> Paris</a>
                                     <p class="font-Inter text-[12px] font-medium text-[#000]">Address</p>
                                 </div>
                             </div>
