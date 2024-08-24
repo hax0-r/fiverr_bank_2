@@ -36,8 +36,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                     </svg>
                                 </div>
                                 <div class="ml-[18px]">
-                                    <a href="mailto:contact@JEComparetout.fr"
-                                        class="font-Inter text-[14px] font-medium text-[#000]">contact@JEComparetout.fr</a>
+                                    <a href="mailto:support@jecomparetout.fr"
+                                        class="font-Inter text-[14px] font-medium text-[#000]">support@jecomparetout.fr</a>
                                     <p class="font-Inter text-[12px] font-medium text-[#000]">Support Email</p>
                                 </div>
                             </div>
